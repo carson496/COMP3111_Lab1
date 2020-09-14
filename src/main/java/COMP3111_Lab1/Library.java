@@ -5,6 +5,8 @@ package COMP3111_Lab1;
 
 public class Library {
 	public static void main(String arg[]) {
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
 		System.out.println("WHen there is a fire, commit and push.");
 	}
 	
